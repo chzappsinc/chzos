@@ -117,3 +117,44 @@ key : randomUUID()
 ...
 
 ```
+## Database example
+#### Example database 1
+chzOS 3 or lesser
+```json
+[
+   {key : "2ijoqwdoqjwdoijqwod", database : "users" , data : {name : "bash", class : "1"} },
+   {key : "xyz", database : "currentSessions" , data : {browser : "chrome", userid : "eu8ejSUejd"} }
+]
+```
+#### Example database 2 [jsdatabase = true]
+chzOS 4 or greater
+```json
+[
+   {
+      "users" : [
+         {key : "xyz", data : {name : "bash", class : 1}}
+         //Update as push
+      ],
+       "currentSessions" : [
+         {key : "yyz", data : {browser : "chromexV12.425", userid : "125"}}
+         //Update as push
+      ]
+   }
+]
+```
+#### Example database 2 [jsdatabase = false]
+chzOS 4 or greater
+```sql
+$start->users
+#"database":"key":"data"
+#"users":"xyz":"{name : "bash", class:1}"
+#"users":"8AS":"{name : "kadar", class:1}"
+#"users":"8MS":"{name : "qutin", class:1}"
+$end->users
+<!-- current session database -->
+$start->currentSession
+#"database":"key":"data"
+#"currentSession":"chrome":"xyzs"
+#"currentSession":"firefox":"xyzs"
+$end->currentSession
+```
