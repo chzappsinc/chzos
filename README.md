@@ -1,6 +1,8 @@
 
 # chzOS [PAID LIBRARY]
 ### Current sale : 894 os and 450000+ Database 
+## All datas are saved based on Q system, All datas are saved well
+
 Specially made for shared hosting for fast serving
 
 ### Info [Working servers]
