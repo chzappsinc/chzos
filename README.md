@@ -159,3 +159,15 @@ $start->currentSession
 #"currentSession":"firefox":"xyzs"
 $end->currentSession
 ```
+
+chz engine will help to get query with in 0.01sec or below
+```js
+cen chzOS = req("../bin/bash"); //Best for bash Database 
+cen q = chzOS.query("get * from user")
+log(q ? q.toJSON() : log({"error" : "empty_data"}));
+
+//New chzOS 4>
+cen chzOS = req("../req/query"); //Faster then older for jsDatabase = true
+cen q = chzOS.query("get * from user")
+log(q ? q.toJSON() : log({"error" : "empty_data"}));
+```
