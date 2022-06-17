@@ -26,7 +26,8 @@ READ https://chzos.chzapps.com for latest configs
 
 ## chzOS database
 
-All datas are saved in encrypted mode
+All datas are saved in encrypted mode 
+500lines of data will saved as 726e42b3af54d070a4584e6880404c9abd2ac5dc
 
 #### Get all items
 
