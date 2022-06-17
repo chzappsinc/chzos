@@ -120,7 +120,7 @@ key : randomUUID()
 ## Database example
 #### Example database 1
 chzOS 3 or lesser
-```json
+```js
 [
    {key : "2ijoqwdoqjwdoijqwod", database : "users" , data : {name : "bash", class : "1"} },
    {key : "xyz", database : "currentSessions" , data : {browser : "chrome", userid : "eu8ejSUejd"} }
@@ -128,7 +128,7 @@ chzOS 3 or lesser
 ```
 #### Example database 2 [jsdatabase = true]
 chzOS 4 or greater
-```json
+```js
 [
    {
       "users" : [
@@ -144,7 +144,7 @@ chzOS 4 or greater
 ```
 #### Example database 2 [jsdatabase = false]
 chzOS 4 or greater
-```sql
+```cpp
 $start->users
 #"database":"key":"data"
 #"users":"xyz":"{name : "bash", class:1}"
