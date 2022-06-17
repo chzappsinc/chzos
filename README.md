@@ -1,5 +1,6 @@
 
-# chzOS
+# chzOS [PAID LIBRARY]
+### Current sale : 894 os and 450000+ Database 
 Specially made for shared hosting for fast serving
 
 
