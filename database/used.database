@@ -1,0 +1,4 @@
+[
+   {key : "2ijoqwdoqjwdoijqwod", database : "users" , data : {name : "bash", class : "1"} },
+   {key : "xyz", database : "currentSessions" , data : {browser : "chrome", userid : "eu8ejSUejd"} }
+]

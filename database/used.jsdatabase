@@ -1,0 +1,10 @@
+[
+   {
+      "users" : [
+         {key : "xyz", data : {name : "bash", class : 1}}
+      ],
+       "currentSessions" : [
+         {key : "yyz", data : {browser : "chromexV12.425", userid : "125"}}
+      ]
+   }
+]
