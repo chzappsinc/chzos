@@ -10,7 +10,6 @@ Specially made for shared hosting for fast serving
 - RazorHost.in
 - Hostinginfy(High speed for chzOS) [Currently unavailable]
 - And any VPS 
-- Also you can weather it work on your ssh terminal `run https://chzos.chzapps.com/ssh/cpanel`
 
 ## Installation
 
