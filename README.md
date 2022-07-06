@@ -35,6 +35,8 @@ READ https://chzos.chzapps.com for latest configs
 All datas are saved in encrypted mode 
 500lines of data will saved as 726e42b3af54d070a4584e6880404c9abd2ac5dc
 
+- You can configure uri of the database and API from config.json
+
 #### Get all items
 
 ```http
