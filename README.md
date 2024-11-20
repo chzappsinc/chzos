@@ -1,15 +1,18 @@
 
 # chzOS [PAID LIBRARY]
-### Current sale : 894 os and 450000+ Database 
-## All datas are saved based on Q system, All datas are saved well
+### Current sale : 9034 os and 129M+ Database 
+## All datas are saved based on 'Q' system, All datas are saved well
 
-Specially made for shared hosting for fast serving
+Specially made for shared hosting for fast serving (🥇)
 
 ### Info [Working servers]
-- Hostgator.in
-- RazorHost.in
-- Hostinginfy(High speed for chzOS) [Currently unavailable]
-- And any VPS 
+- Hostgator.in ❎ 
+- RazorHost.in ❎
+  
+ℹ️ **Above Servers will not work with chzOS V5 or above until they are not updates chzOS 0.023 or Above**
+
+- HybeckOS(High speed for chzOS) ✅
+- And any VPS (Need to install chzOS) ✅
 
 ## Installation
 
@@ -17,9 +20,43 @@ Download chzos latest version from https://bit.ly/3QsBRk4
 
 ```bash
   Paste it on 
-  home/chz/.here
+  ~/home/_env/.chzOS_23.hos
+  ~/home/.config/.chzOS_23.cf
 ```
+
 READ https://chzos.chzapps.com for latest configs
+
+
+## ChzOS V5 Database 
+_its auto integrated and no need any setup_
+
+**Database BaseURL** : `youhost/chzos/confar/db/:dbType/:dbName`
+
+print will be : https://mydomain.com/chzos/confar/db/mongo/mydatabase
+
+As v5 you can use directly on your service 
+
+```typescript
+import chzDB from '@hybeck/chzDB'
+
+chzDB.applyFromCloudOS("https://mydomain.com/chzos/confar/db/mongo/mydatabase")
+
+//if failed will throw and error {failed:true, issue : "string"}
+
+const allUsers = await chzDB.find("users",{
+username : "hello"
+})
+
+const userById = await chzDB.findById("objectId/orMash", "users")
+
+const addNewUser = await chzDB.create("users", {
+username :"jazz",
+password : "0934034", //autoHash for password as its key is 'password', if you dont want to hash then user passwordV2 as key
+})
+
+```
+
+
 
 
 ## Features
